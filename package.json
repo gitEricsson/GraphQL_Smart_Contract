@@ -1,0 +1,37 @@
+{
+  "name": "simple_graphql_smart_contract",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "",
+  "main": "src/server.ts",
+  "engines": {
+    "node": ">18.0.0"
+  },
+  "scripts": {
+    "start": "node dist/server.js",
+    "test": "cross-env NODE_OPTIONS=--max-old-space-size=4096 jest --watchAll --detectOpenHandles",
+    "build": "tsc -p .",
+    "dev": "nodemon src/server.ts"
+  },
+  "author": "Ericsson Raphael",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "express": "^4.21.1",
+    "graphql": "^16.9.0",
+    "graphql-http": "^1.22.3",
+    "mongoose": "^8.8.3"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/graphql": "^14.2.3",
+    "@types/node": "^22.10.1",
+    "hardhat": "^2.22.16",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
