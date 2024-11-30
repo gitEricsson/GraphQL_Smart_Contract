@@ -1,8 +1,8 @@
-# Simple GraphQL Smart Contract
+# GraphQL Smart Contract
 
 ## Overview
 
-This project is a simple GraphQL server that interacts with an Ethereum smart contract using Hardhat and Ethers.js. The server allows users to increment a counter stored on the blockchain and retrieve its current value. It also includes a MongoDB database for user management.
+This project is a GraphQL server that interacts with an Ethereum smart contract using Hardhat and Ethers.js. The server allows users to increment a counter stored on the blockchain and retrieve its current value. It also includes a MongoDB database for user management.
 
 ## Table of Contents
 
